@@ -20,7 +20,6 @@ searchUser.addEventListener('click', (e) => {
         } else {
           ui.showProfile(data.profile);
           ui.showRepo(data.repos);
-          console.log(data.repos);
         }
       });
   }
